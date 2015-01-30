@@ -12,8 +12,8 @@ class Test extends MY_Controller
   {
 
     $data = array(
-      "Attribute 1" => 1,
-      "Attribute 2" => 2
+        array("id" => 1),
+        array("id" => 2)
     );
 
     $this->response($data);
